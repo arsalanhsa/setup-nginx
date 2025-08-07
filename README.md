@@ -82,6 +82,53 @@ sudo systemctl reload nginx
 
 ---
 
+To stop Nginx on your system, you can use one of the following commands, depending on what exactly you want to do:
+
+---
+
+### 🛑 To **stop** Nginx immediately:
+
+```bash
+sudo systemctl stop nginx
+```
+
+---
+
+### 🔁 To **restart** Nginx (stop & start again):
+
+```bash
+sudo systemctl restart nginx
+```
+
+---
+
+### 🔄 To **reload** Nginx config without downtime:
+
+```bash
+sudo systemctl reload nginx
+```
+
+---
+
+### 🚫 To **disable** Nginx from starting on boot:
+
+```bash
+sudo systemctl disable nginx
+```
+
+---
+
+### ✅ To **check Nginx status**:
+
+```bash
+sudo systemctl status nginx
+```
+
+---
+
+Let me know if you want to **completely uninstall** Nginx or **temporarily stop only port 5000** or similar.
+
+
 ## Notes
 
 * Make sure your **Next.js** app is running on port `3000` and your **Node.js API** is running on port `8080`.
