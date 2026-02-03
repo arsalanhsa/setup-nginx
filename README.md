@@ -4,7 +4,7 @@ Here is a clean and well-formatted `README.md` file for setting up and configuri
 
 Learn Docker 
 
-````markdown
+````markdown 
 # Nginx Setup for Next.js + Node.js (CareerPilot)
 
 This guide helps you install and configure **Nginx** to serve a **Next.js frontend** and a **Node.js backend API** under a single domain using reverse proxying.
